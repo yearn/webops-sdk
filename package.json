@@ -1,0 +1,11 @@
+{
+  "name": "webops",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules build dst dist .next .cache coverage .nyc_output"
+  },
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2"
+  }
+}
