@@ -1,10 +1,13 @@
 {
-  "name": "webops",
+  "name": "webops-sdk",
   "private": true,
   "scripts": {
-    "clean": "rm -rf node_modules build dst dist .next .cache coverage .nyc_output"
+    "cms": "(cd packages/cms/cdn && bun dev)",
+    "clean": "bash clean.sh"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/**"
+  ],
   "devDependencies": {
     "@biomejs/biome": "^2.1.2"
   }

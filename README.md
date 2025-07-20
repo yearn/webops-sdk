@@ -1,7 +1,7 @@
-# webops
-webops monorepo
+# webops-sdk
+webops sdk monorepo
 
 ```bash
-bun clean
+bun clean [--lockfiles]
 bun install
 ```

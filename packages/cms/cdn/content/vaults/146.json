@@ -1,0 +1,296 @@
+[
+  {
+    "chainId": 146,
+    "address": "0x2F7397FD2D49E5b636eF44503771B17EDEd67620",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0x2F7397FD2D49E5b636eF44503771B17EDEd67620",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": false,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0x8dB97437F8E28A11019128D7B2604A42e333025E",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0x8dB97437F8E28A11019128D7B2604A42e333025E",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": false,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0xA369c32fD1FA2CD265F0BdF76f39201FF333F6Ac",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0xA369c32fD1FA2CD265F0BdF76f39201FF333F6Ac",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": false,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0xb9228370e2fa4908FC2Bf559a50bB77ba66fDD66",
+    "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": false,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": true,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0xb9228370e2fa4908FC2Bf559a50bB77ba66fDD66",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "USDC.e-2",
+    "displaySymbol": "yvUSDC.e-2",
+    "description": "Multi strategy USDC.e vault. <br/><br/>Vaults labeled with the category of -2 will use strategies deploying into less proven but potentially higher yielding protocols than the standard vaults. These strategies may have a higher likelyhood of becoming temporarily illiquid or even producing losses, but are expected to earn more yield than others.",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": true,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0xBe3E3Ca48525406063CB2CE9c7c848BCf24DC9fc",
+    "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": true,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0xBe3E3Ca48525406063CB2CE9c7c848BCf24DC9fc",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": true,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0xe272e402D817c8F20AC4426aaC21b95A13F76C99",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0xe272e402D817c8F20AC4426aaC21b95A13F76C99",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "auto",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": false,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  },
+  {
+    "chainId": 146,
+    "address": "0xf8815E49BD30c79d7a026EAe414Aa92faFf29541",
+    "registry": "0x0000000000000000000000000000000000000000",
+    "ydaemonType": "Yearn Vault",
+    "ydaemonKind": "Multi Strategy",
+    "ydaemonEndorsed": true,
+    "isRetired": false,
+    "isHidden": true,
+    "isAggregator": false,
+    "isBoosted": false,
+    "isAutomated": false,
+    "isHighlighted": false,
+    "isPool": false,
+    "shouldUseV2APR": false,
+    "migration": {
+      "available": false,
+      "target": "0xf8815E49BD30c79d7a026EAe414Aa92faFf29541",
+      "contract": "0x0000000000000000000000000000000000000000"
+    },
+    "stability": {
+      "stability": "Unknown"
+    },
+    "category": "Stablecoin",
+    "displayName": "",
+    "displaySymbol": "",
+    "description": "",
+    "sourceURI": "",
+    "uiNotice": "",
+    "protocols": [],
+    "inclusion": {
+      "isSet": true,
+      "isYearn": false,
+      "isYearnJuiced": false,
+      "isGimme": false,
+      "isPoolTogether": false,
+      "isCove": false,
+      "isMorpho": false,
+      "isKatana": false,
+      "isPublicERC4626": false
+    }
+  }
+]
