@@ -89,7 +89,7 @@ function transformYdaemonToYcms(yd: YDaemonVaultMetadata): VaultMetadata {
       contract: yd.metadata?.migration?.contract ? EvmAddressSchema.parse(yd.metadata.migration.contract) : undefined,
     },
     stability: {
-      stability: yd.metadata?.stability?.stability === '' ? 'Unset' : yd.metadata?.stability?.stability as 'Unknown' | 'Correlated' | 'Stable' | 'Volatile' | 'Unstable' | 'Unset',
+      stability: yd.metadata?.stability?.stability === '' ? 'Unknown' : yd.metadata?.stability?.stability as 'Unknown' | 'Correlated' | 'Stable' | 'Volatile' | 'Unstable',
       stableBaseAsset: yd.metadata?.stability?.stableBaseAsset ?? undefined,
     },
     category: yd.metadata?.category ?? undefined,

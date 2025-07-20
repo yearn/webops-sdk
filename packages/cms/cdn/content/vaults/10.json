@@ -188,7 +188,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "",
@@ -272,7 +272,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "",
@@ -566,7 +566,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",
@@ -902,7 +902,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "",
@@ -1070,7 +1070,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",
@@ -1322,7 +1322,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "",
@@ -1448,7 +1448,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Curve",
     "displayName": "",
@@ -2792,7 +2792,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",
@@ -2918,7 +2918,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "",
@@ -3422,7 +3422,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",
@@ -3590,7 +3590,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",
@@ -4262,7 +4262,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "",

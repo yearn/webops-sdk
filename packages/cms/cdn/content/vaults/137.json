@@ -232,7 +232,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "Stablecoin",
     "displayName": "CompV3 WMATIC Lender Borrower",
@@ -742,7 +742,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "CompV3 WETH Lender Borrower",
@@ -954,7 +954,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "Staked MATIC Accumulator",
@@ -1038,7 +1038,7 @@
       "contract": "0x0000000000000000000000000000000000000000"
     },
     "stability": {
-      "stability": "Unset"
+      "stability": "Unknown"
     },
     "category": "",
     "displayName": "Staked ETH Accumulator",

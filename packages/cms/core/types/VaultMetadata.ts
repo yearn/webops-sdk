@@ -24,7 +24,7 @@ export const VaultMetadataSchema = z.object({
     }),
   stability: z
     .object({
-      stability: z.enum(['Unknown', 'Correlated', 'Stable', 'Volatile', 'Unstable', 'Unset']),
+      stability: z.enum(['Unknown', 'Correlated', 'Stable', 'Volatile', 'Unstable']),
       stableBaseAsset: z.string().optional(),
     }),
   category: z.string().optional(),
