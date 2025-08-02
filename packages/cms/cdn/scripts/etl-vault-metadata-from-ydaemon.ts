@@ -4,7 +4,6 @@ import { type VaultMetadata, VaultMetadataSchema } from '@webops/cms/core'
 import { EvmAddressSchema } from '@webops/core'
 import { z } from 'zod'
 
-
 z.ZodString.prototype.optionalString = function () {
   return this.nullish().or(z.literal(''))
 }

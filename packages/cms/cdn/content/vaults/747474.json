@@ -217,7 +217,7 @@
     "ydaemonKind": "Multi Strategy",
     "ydaemonEndorsed": true,
     "isRetired": false,
-    "isHidden": true,
+    "isHidden": false,
     "isAggregator": false,
     "isBoosted": false,
     "isAutomated": false,
@@ -241,14 +241,14 @@
     "protocols": [],
     "inclusion": {
       "isSet": true,
-      "isYearn": false,
+      "isYearn": true,
       "isYearnJuiced": false,
       "isGimme": false,
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
       "isKatana": false,
-      "isPublicERC4626": true
+      "isPublicERC4626": false
     }
   },
   {
@@ -331,8 +331,8 @@
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
@@ -359,7 +359,7 @@
       "stability": "Unknown"
     },
     "category": "Stablecoin",
-    "displayName": "🦋 USDS yVault 🦋",
+    "displayName": "USDS yVault",
     "displaySymbol": "yvUSDS",
     "description": "Multi strategy vbUSDS vault. <br/><br/>Multi strategy vaults are (wait for it) vaults that contain multiple strategies. Multi strategy vaults give the vault creator flexibility to balance risk and opportunity across multiple different strategies.",
     "sourceURI": "",
@@ -373,19 +373,19 @@
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
     "chainId": 747474,
     "address": "0x93Fec6639717b6215A48E5a72a162C50DCC40d68",
-    "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
+    "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
-    "ydaemonEndorsed": false,
+    "ydaemonEndorsed": true,
     "isRetired": false,
-    "isHidden": false,
+    "isHidden": true,
     "isAggregator": false,
     "isBoosted": false,
     "isAutomated": false,
@@ -409,14 +409,14 @@
     "protocols": [],
     "inclusion": {
       "isSet": true,
-      "isYearn": true,
+      "isYearn": false,
       "isYearnJuiced": false,
       "isGimme": false,
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
@@ -427,7 +427,7 @@
     "ydaemonKind": "Multi Strategy",
     "ydaemonEndorsed": true,
     "isRetired": false,
-    "isHidden": false,
+    "isHidden": true,
     "isAggregator": false,
     "isBoosted": false,
     "isAutomated": false,
@@ -451,14 +451,14 @@
     "protocols": [],
     "inclusion": {
       "isSet": true,
-      "isYearn": true,
+      "isYearn": false,
       "isYearnJuiced": false,
       "isGimme": false,
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
@@ -469,7 +469,7 @@
     "ydaemonKind": "Multi Strategy",
     "ydaemonEndorsed": true,
     "isRetired": false,
-    "isHidden": false,
+    "isHidden": true,
     "isAggregator": false,
     "isBoosted": false,
     "isAutomated": false,
@@ -493,14 +493,14 @@
     "protocols": [],
     "inclusion": {
       "isSet": true,
-      "isYearn": true,
+      "isYearn": false,
       "isYearnJuiced": false,
       "isGimme": false,
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
@@ -667,8 +667,8 @@
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": true,
-      "isPublicERC4626": true
+      "isKatana": false,
+      "isPublicERC4626": false
     }
   },
   {
