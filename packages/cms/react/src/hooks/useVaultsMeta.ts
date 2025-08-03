@@ -10,19 +10,28 @@ export function useVaultsMeta() {
     queryKey: ['vaults-meta'],
     queryFn: async () => {
       const promises = Object.values(chains).map(chain => fetch(`${CDN_URL}content/vaults/${chain.id}.json`))
-      const jsons = (await Promise.all(promises)).flatMap(result => result.json())
-      const result = await Promise.all(jsons)
-      return result.flat()
+      const jsonPromises = (await Promise.all(promises)).flatMap(result => result.json())
+      const jsons = await Promise.all(jsonPromises)
+
+      const chainKeys = Object.keys(chains).map(Number)
+      const rawJsonChainMap: Record<string, any> = {}
+      jsons.forEach((json, index) => {
+        const chainId = chains[chainKeys[index]].id
+        rawJsonChainMap[chainId] = json
+      })
+
+      return { flat: jsons.flat(), rawJsonChainMap }
     },
     staleTime: 1000 * 60 * 5
   })
 
   const vaults = useMemo(() => {
-    return query.data.map(d => VaultMetadataSchema.parse(d))
-  }, [query.data])
+    return query.data.flat.map(d => VaultMetadataSchema.parse(d))
+  }, [query.data.flat])
 
   return {
     ...query,
-    vaults
+    vaults,
+    rawJsonChainMap: query.data.rawJsonChainMap
   }
 }

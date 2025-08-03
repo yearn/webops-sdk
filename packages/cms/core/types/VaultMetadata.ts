@@ -1,11 +1,12 @@
-import { EvmAddressSchema } from '@webops/core'
 import { z } from 'zod'
+
+const evmAddress = z.string().regex(/^0x[0-9a-fA-F]{40}$/)
 
 export const VaultMetadataSchema = z.object({
   chainId: z.number(),
-  address: EvmAddressSchema,
+  address: evmAddress,
   name: z.string(),
-  registry: EvmAddressSchema.optional(),
+  registry: evmAddress.optional(),
   ydaemonType: z.enum(['Yearn Vault', 'Experimental Yearn Vault', 'Automated Yearn Vault', 'Single Strategy']),
   ydaemonKind: z.enum(['Multi Strategy', 'Legacy', 'Single Strategy', 'None']),
   ydaemonEndorsed: z.boolean(),
@@ -20,8 +21,8 @@ export const VaultMetadataSchema = z.object({
   migration: z
     .object({
       available: z.boolean(),
-      target: EvmAddressSchema.optional(),
-      contract: EvmAddressSchema.optional(),
+      target: evmAddress.optional(),
+      contract: evmAddress.optional(),
     }),
   stability: z
     .object({

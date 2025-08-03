@@ -68,7 +68,6 @@ export default async function (req: Request): Promise<Response> {
     }
 
     // Return token and state to frontend
-    console.log('req.headers.get(origin)', req.headers.get('origin'))
     const redirect = new URL('/auth/github/success', req.headers.get('origin') ?? 'http://localhost:3000')
     redirect.searchParams.set('token', tokenData.access_token ?? '')
     redirect.searchParams.set('state', state)

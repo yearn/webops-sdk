@@ -17,6 +17,5 @@ export default function Header() {
     <div>
       <GithubSignIn />
     </div>
-
   </header>
 }

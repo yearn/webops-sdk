@@ -1,16 +1,13 @@
 import { Outlet } from 'react-router-dom'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 export default function Layout() {
-  return <main className="relative w-full min-h-screen flex flex-col">
-    <Header />
-    <div className="">
+  return <main className="relative w-full min-h-screen overflow-x-hidden">
+    <div id="main-scroll" className="fixed inset-0 min-h-screen flex flex-col overflow-y-auto">
+      <Header />
       <Outlet />
+      <Footer />
     </div>
-    <footer className="px-8 py-6 flex items-center justify-end border-t border-primary-800 text-primary-800 bg-black/20">
-      <a href="https://github.com/yearn/ycms" target="_blank" rel="noopener" className="flex items-center gap-2">
-        https://github.com/yearn/ycms
-      </a>
-    </footer>
   </main>
 }
