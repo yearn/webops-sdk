@@ -2,6 +2,7 @@
   {
     "chainId": 146,
     "address": "0x2F7397FD2D49E5b636eF44503771B17EDEd67620",
+    "name": "basic USD strategy",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -44,6 +45,7 @@
   {
     "chainId": 146,
     "address": "0x8dB97437F8E28A11019128D7B2604A42e333025E",
+    "name": "USDC.e-1 RarityFinance",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -86,6 +88,7 @@
   {
     "chainId": 146,
     "address": "0xA369c32fD1FA2CD265F0BdF76f39201FF333F6Ac",
+    "name": "USDC.e-3 RarityFinance",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -128,6 +131,7 @@
   {
     "chainId": 146,
     "address": "0xb9228370e2fa4908FC2Bf559a50bB77ba66fDD66",
+    "name": "USDC-2 yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -170,6 +174,7 @@
   {
     "chainId": 146,
     "address": "0xBe3E3Ca48525406063CB2CE9c7c848BCf24DC9fc",
+    "name": "USDC Test",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -212,6 +217,7 @@
   {
     "chainId": 146,
     "address": "0xe272e402D817c8F20AC4426aaC21b95A13F76C99",
+    "name": "wS RarityFinance",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -254,6 +260,7 @@
   {
     "chainId": 146,
     "address": "0xf8815E49BD30c79d7a026EAe414Aa92faFf29541",
+    "name": "USDC.e-2 RarityFinance",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",

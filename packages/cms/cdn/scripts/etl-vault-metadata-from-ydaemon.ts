@@ -1,7 +1,8 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { join } from 'node:path'
 import { type VaultMetadata, VaultMetadataSchema } from '@webops/cms/core'
-import { EvmAddressSchema } from '@webops/core'
+import { chains, EvmAddressSchema } from '@webops/core'
+import { createPublicClient, http, parseAbi } from 'viem'
 import { z } from 'zod'
 
 z.ZodString.prototype.optionalString = function () {
@@ -70,6 +71,7 @@ function transformYdaemonToYcms(yd: YDaemonVaultMetadata): VaultMetadata {
   return VaultMetadataSchema.parse({
     chainId: yd.chainID,
     address: yd.address,
+    name: '',
     registry: yd.registry ? EvmAddressSchema.parse(yd.registry) : undefined,
     ydaemonType: yd.type,
     ydaemonKind: yd.kind === '' ? 'None' : yd.kind as 'Multi Strategy' | 'Legacy' | 'Single Strategy' | 'None',
@@ -112,6 +114,36 @@ function transformYdaemonToYcms(yd: YDaemonVaultMetadata): VaultMetadata {
   })
 }
 
+async function updateNames(vaults: VaultMetadata[]) {
+  const chainIds = Object.keys(chains).map(Number)
+  for (const chainId of chainIds) {
+    const vaultsForChain = vaults.filter((vault) => vault.chainId === chainId)
+    const url = process.env[`RPC_${chainId}`]
+    const rpc = createPublicClient({ chain: chains[chainId], transport: http(url) })
+
+    const batchSize = 40
+    for (let i = 0; i < vaultsForChain.length; i += batchSize) {
+      const batch = vaultsForChain.slice(i, i + batchSize)
+      const names = await rpc.multicall({
+        contracts: batch.map((vault) => ({
+          address: vault.address,
+          abi: parseAbi(['function name() view returns (string)']),
+          functionName: 'name',
+        })),
+      })
+      console.log(`update names, ${chainId}, ${i + batchSize}/${vaultsForChain.length} vaults processed`)
+      for (let j = 0; j < batch.length; j++) {
+        if (batch[j] === undefined || names[j] === undefined || names[j].status !== 'success') { 
+          console.log(chainId, i, j, 'batch[j] !== undefined', batch[j] !== undefined)
+          console.log(chainId, i, j, 'names[j] !== undefined', names[j] !== undefined)
+          continue
+        }
+        batch[j].name = names[j].result as string
+      }
+    }
+  }
+}
+
 async function main() {
   try {
     const vaultsPath = join(__dirname, '../../../../../ydaemon/data/meta/vaults')
@@ -130,6 +162,7 @@ async function main() {
         .map((vault) => YDaemonVaultMetadataSchema.parse(vault))
 
       const transformed = ydaemonVaults.map(transformYdaemonToYcms)
+      await updateNames(transformed)
 
       const contentpath = join(__dirname, '../content/vaults', `${chainId}.json`)
       await mkdir(join(__dirname, '../content/vaults'), { recursive: true })

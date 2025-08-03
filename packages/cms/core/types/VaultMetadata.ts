@@ -4,6 +4,7 @@ import { z } from 'zod'
 export const VaultMetadataSchema = z.object({
   chainId: z.number(),
   address: EvmAddressSchema,
+  name: z.string(),
   registry: EvmAddressSchema.optional(),
   ydaemonType: z.enum(['Yearn Vault', 'Experimental Yearn Vault', 'Automated Yearn Vault', 'Single Strategy']),
   ydaemonKind: z.enum(['Multi Strategy', 'Legacy', 'Single Strategy', 'None']),

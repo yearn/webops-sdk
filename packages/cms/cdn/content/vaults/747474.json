@@ -2,6 +2,7 @@
   {
     "chainId": 747474,
     "address": "0x0a1937F0D7f15B9ADee5d96616f269a0C6749C6d",
+    "name": "Morpho Gauntlet WBTC Vault Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -44,6 +45,7 @@
   {
     "chainId": 747474,
     "address": "0x156C729C78076b7cd815D01Ca6967c00c5ac8D9C",
+    "name": "Morpho Yearn OG USDT Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -86,6 +88,7 @@
   {
     "chainId": 747474,
     "address": "0x37a79Bfb9F645F8Ed0a9ead9c722710D8f47C431",
+    "name": "Morpho Yearn OG vbETH Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -128,6 +131,7 @@
   {
     "chainId": 747474,
     "address": "0x543CC24962b540430DD1121E83E8564770Da6810",
+    "name": "Morpho Gauntlet USDT Vault Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -170,6 +174,7 @@
   {
     "chainId": 747474,
     "address": "0x58B369aEC52DD904f70122cF72ed311f7AAe3bAc",
+    "name": "Morpho Steakhouse Prime USDC Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -212,6 +217,7 @@
   {
     "chainId": 747474,
     "address": "0x639bCcF37CC0415812A6f110CFCa33127a81c0e9",
+    "name": "Woofy yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -254,6 +260,7 @@
   {
     "chainId": 747474,
     "address": "0x78EC25FBa1bAf6b7dc097Ebb8115A390A2a4Ee12",
+    "name": "Morpho Yearn OG USDC Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -296,6 +303,7 @@
   {
     "chainId": 747474,
     "address": "0x80c34BD3A3569E126e7055831036aa7b212cB159",
+    "name": "vbUSDC yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -338,6 +346,7 @@
   {
     "chainId": 747474,
     "address": "0x8Fb1c10Ad4417EcA341a1D903Ff437d25ff87a4e",
+    "name": "vbUSDS yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -380,6 +389,7 @@
   {
     "chainId": 747474,
     "address": "0x93Fec6639717b6215A48E5a72a162C50DCC40d68",
+    "name": "AUSD yVault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -422,6 +432,7 @@
   {
     "chainId": 747474,
     "address": "0x9A6bd7B6Fd5C4F87eb66356441502fc7dCdd185B",
+    "name": "vbUSDT yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -464,6 +475,7 @@
   {
     "chainId": 747474,
     "address": "0xAa0362eCC584B985056E47812931270b99C91f9d",
+    "name": "vbWBTC yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -506,6 +518,7 @@
   {
     "chainId": 747474,
     "address": "0xC1Ec6d26902949Bf6cbb0c9859dbEAD1E87FB243",
+    "name": "Morpho Steakhouse Prime AUSD Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -548,6 +561,7 @@
   {
     "chainId": 747474,
     "address": "0xCEa8d1281DdACFDcD68eAAf88dd59cEd0e627746",
+    "name": "vbUSDC TOKI",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -590,6 +604,7 @@
   {
     "chainId": 747474,
     "address": "0xD46dFDAA7cAA8739B0e3274e2C085dFFc8d4776A",
+    "name": "Morpho Gauntlet USDC Vault Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -632,6 +647,7 @@
   {
     "chainId": 747474,
     "address": "0xE007CA01894c863d7898045ed5A3B4Abf0b18f37",
+    "name": "vbETH yVault",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -674,6 +690,7 @@
   {
     "chainId": 747474,
     "address": "0xEA79C91540C7E884e6E0069Ce036E52f7BbB1194",
+    "name": "Morpho Gauntlet WETH Vault Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -716,6 +733,7 @@
   {
     "chainId": 747474,
     "address": "0xF7EDe5332c6b4A235be4aA3c019222CFe72e984F",
+    "name": "Morpho Gauntlet AUSD Vault Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",

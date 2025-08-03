@@ -1,7 +1,7 @@
-import { arbitrum, base, fantom, gnosis, mainnet, optimism, polygon, sonic } from 'viem/chains'
+import { arbitrum, base, type Chain, fantom, gnosis, mainnet, optimism, polygon, sonic } from 'viem/chains'
 import katana from './katana'
 
-export const chains = {
+export const chains: Record<number, Chain> = {
   [mainnet.id]: mainnet,
   [optimism.id]: optimism,
   [gnosis.id]: gnosis,

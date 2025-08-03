@@ -2,6 +2,7 @@
   {
     "chainId": 137,
     "address": "0x03e6010193c595eC168756aF700479D1AFf76895",
+    "name": "yearn-V3-Gamma-USDC.e-DAI",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -46,6 +47,7 @@
   {
     "chainId": 137,
     "address": "0x06eD7C67755344548FAFe1822bEE365C4208a57F",
+    "name": "yearn-V3-Stargate-DAI",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -88,6 +90,7 @@
   {
     "chainId": 137,
     "address": "0x0fEFEe13864c431717f5B2678607b6ce532a170C",
+    "name": "USDT CompoundV3 Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -130,6 +133,7 @@
   {
     "chainId": 137,
     "address": "0x12c3Ad898e8eB1C0ec0Bb74f9748F36C46593F68",
+    "name": "Aave V3 WMATIC Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -172,6 +176,7 @@
   {
     "chainId": 137,
     "address": "0x28F53bA70E5c8ce8D03b1FaD41E9dF11Bb646c36",
+    "name": "WMATIC yVault-A",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -214,6 +219,7 @@
   {
     "chainId": 137,
     "address": "0x2a42A69F48EfffDF2d4Fb079Af60D98D3e34D49C",
+    "name": "CompV3 WMATIC Lender USDC Borrower",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -256,6 +262,7 @@
   {
     "chainId": 137,
     "address": "0x2c5d0c3DB75D2f8A4957c74BE09194a9271Cf28D",
+    "name": "yearn-V3-Stargate-USDT",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -298,6 +305,7 @@
   {
     "chainId": 137,
     "address": "0x305F25377d0a39091e99B975558b1bdfC3975654",
+    "name": "WETH yVault-A",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -340,6 +348,7 @@
   {
     "chainId": 137,
     "address": "0x32adfC6170344F848A8c0efe68dad93e5b6964aA",
+    "name": "yearn-V3-Gamma-USDC.e-WETH-Wide",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -384,6 +393,7 @@
   {
     "chainId": 137,
     "address": "0x336f8B2cD78Cd280116d2Db68b7cd983ee3D53aC",
+    "name": "YieldFox USDC.e-B",
     "registry": "0xE9E8C89c8Fc7E8b8F23425688eb68987231178e5",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -426,6 +436,7 @@
   {
     "chainId": 137,
     "address": "0x34b9421Fe3d52191B64bC32ec1aB764dcBcDbF5e",
+    "name": "USDC-1 yVault",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -468,6 +479,7 @@
   {
     "chainId": 137,
     "address": "0x3A58dF70F9204beDcd6aee2b51582EB77fE30E02",
+    "name": "yearn-V3-Gamma-WBTC-WETH",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -512,6 +524,7 @@
   {
     "chainId": 137,
     "address": "0x3bd8C987286D8Ad00c05fdb2Ae3E8C9a0f054734",
+    "name": "AaveV3 USDT Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -554,6 +567,7 @@
   {
     "chainId": 137,
     "address": "0x41f63Bd9180Eaaa58185E1a88E2B22Cea52634b9",
+    "name": "dai-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -596,6 +610,7 @@
   {
     "chainId": 137,
     "address": "0x42908891cBC13301C910B4E71055431bf134AAa0",
+    "name": "yearn-V3-Gamma-WMATIC-USDC.e",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -640,6 +655,7 @@
   {
     "chainId": 137,
     "address": "0x4572c3C8f2CfDd77D1dd7987BC46CA20D72f32b0",
+    "name": "DAI-2 RancheroDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -682,6 +698,7 @@
   {
     "chainId": 137,
     "address": "0x4987d1856F93DFf29e08aa605A805FaF43dC3103",
+    "name": "yvAjnaUSDC-compounder",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -724,6 +741,7 @@
   {
     "chainId": 137,
     "address": "0x5136c2F7aB13E202eD42bc1AE82Dd63475919653",
+    "name": "CompV3 WETH Lender USDC Borrower",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -766,6 +784,7 @@
   {
     "chainId": 137,
     "address": "0x52367C8E381EDFb068E9fBa1e7E9B2C847042897",
+    "name": "Aave V3 USDC Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -808,6 +827,7 @@
   {
     "chainId": 137,
     "address": "0x54303F18161d9870b0fc66B88B0B129e8e5fF505",
+    "name": "yearn-V3-Gamma-USDC.e-WETH",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -852,6 +872,7 @@
   {
     "chainId": 137,
     "address": "0x56b33795C24b1c46049031EA9bB8466C5B6cB3Fb",
+    "name": "USDC-2 RombusDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -894,6 +915,7 @@
   {
     "chainId": 137,
     "address": "0x6E9ac188DbCC14632a253aA9Ce2783cD712aB3cA",
+    "name": "Morpho Compound USDC Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -936,6 +958,7 @@
   {
     "chainId": 137,
     "address": "0x6Ed737EF2Ef74e04005dC9810366De5ad38Cf7D6",
+    "name": "yearn-V3-LST",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -978,6 +1001,7 @@
   {
     "chainId": 137,
     "address": "0x72449578349b69544dE5FF2fb70f0cFBA18a6AD1",
+    "name": "dai-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1020,6 +1044,7 @@
   {
     "chainId": 137,
     "address": "0x7486325A843590b84c98563c6962C58655569EcA",
+    "name": "yearn-V3-LST-WSTETH",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1062,6 +1087,7 @@
   {
     "chainId": 137,
     "address": "0x8BBa7AFd0f9B1b664C161EC31d812a8Ec15f7e1a",
+    "name": "yearn-V3-Stargate-USDC",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1104,6 +1130,7 @@
   {
     "chainId": 137,
     "address": "0x8df66d28914084f44c4046783810cbAd662fA633",
+    "name": "yearn-V3-Gamma-WMATIC-MATICX",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1148,6 +1175,7 @@
   {
     "chainId": 137,
     "address": "0x8eE8898b3524470FA0cFd9c5Af4Be59cd7e9595D",
+    "name": "ETHDENVER",
     "registry": "0xE9E8C89c8Fc7E8b8F23425688eb68987231178e5",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1190,6 +1218,7 @@
   {
     "chainId": 137,
     "address": "0x90b2f54C6aDDAD41b8f6c4fCCd555197BC0F773B",
+    "name": "DAI yVault-A",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1232,6 +1261,7 @@
   {
     "chainId": 137,
     "address": "0x91E646449A3105e9091e882C9A9a7A81950eeBB8",
+    "name": "yearn-V3-Gamma-WMATIC-WETH-Wide",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1276,6 +1306,7 @@
   {
     "chainId": 137,
     "address": "0x9bc04daBDe16F559d9C8DDE00325aaD15F0B0a47",
+    "name": "supervault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1318,6 +1349,7 @@
   {
     "chainId": 137,
     "address": "0x9d1046ceCB0662037b13dECF1CD125C4Aa3fb65B",
+    "name": "Morpho Compound USDT Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1360,6 +1392,7 @@
   {
     "chainId": 137,
     "address": "0xA013Fbd4b711f9ded6fB09C1c0d358E2FbC2EAA0",
+    "name": "USDC yVault-A",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1402,6 +1435,7 @@
   {
     "chainId": 137,
     "address": "0xa823eF7dF6392800569946c6C1Dec0e34356EF18",
+    "name": "yearn-V3-Gamma-USDC.e-USDT",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1446,6 +1480,7 @@
   {
     "chainId": 137,
     "address": "0xA9c3b8f7aB9Cc105ac4d27c1bf821eC0c6a9E954",
+    "name": "yearn-V3-Gamma-WBTC-USDC.e",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1490,6 +1525,7 @@
   {
     "chainId": 137,
     "address": "0xb1403908F772E4374BB151F7C67E88761a0Eb4f1",
+    "name": "Compound V3 USDC Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1532,6 +1568,7 @@
   {
     "chainId": 137,
     "address": "0xB40f69b0cC508dFBaA0c8C5Fd34107e3a191ac95",
+    "name": "USDC-1 RogerThatDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1574,6 +1611,7 @@
   {
     "chainId": 137,
     "address": "0xb64cE1C06AF365424060E2720dF46997A4Fd3a0a",
+    "name": "yearn-V3-Gamma-WMATIC-WETH",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1618,6 +1656,7 @@
   {
     "chainId": 137,
     "address": "0xBb287E6017d3DEb0e2E65061e8684eab21060123",
+    "name": "USDT yVault-A",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1660,6 +1699,7 @@
   {
     "chainId": 137,
     "address": "0xBEDA9A5300393e00229dc15cC54D5185E7646c56",
+    "name": "AaveV3 WETH Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1702,6 +1742,7 @@
   {
     "chainId": 137,
     "address": "0xd2d0C98684050222Ec9418B21E97e3f9a70D9FB0",
+    "name": "dai-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1744,6 +1785,7 @@
   {
     "chainId": 137,
     "address": "0xD4a0AA006e0f70580Aaa7ee1FD04Fa447c36B259",
+    "name": "Morpho Compound WETH Compounder",
     "registry": "0xd40ecF29e001c76Dcc4cC0D9cd50520CE845B038",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1786,6 +1828,7 @@
   {
     "chainId": 137,
     "address": "0xD600D760477fFAED25bf2450e29ff6Bd3C47c9Ea",
+    "name": "weth-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1828,6 +1871,7 @@
   {
     "chainId": 137,
     "address": "0xD7be0Ec4f6D7ec344311F8284b448f5BcCfD0fD1",
+    "name": "USDC-1 RancheroDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1870,6 +1914,7 @@
   {
     "chainId": 137,
     "address": "0xD92A3A0aD7FbE4b8f6382e0caDa87471ef800515",
+    "name": "USDC-3 RancheroDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1912,6 +1957,7 @@
   {
     "chainId": 137,
     "address": "0xD9df4b212c9565A6281a2025B7ed87Dd0f4a6cb4",
+    "name": "DAI-3 RancheroDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -1954,6 +2000,7 @@
   {
     "chainId": 137,
     "address": "0xdB92B89Ca415c0dab40Dc96E99Fc411C08F20780",
+    "name": "Aave V3 USDC Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -1996,6 +2043,7 @@
   {
     "chainId": 137,
     "address": "0xE4244bf798f63881591113126b64493ac36Ac525",
+    "name": "USDC-1 DemoDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -2038,6 +2086,7 @@
   {
     "chainId": 137,
     "address": "0xf4F9d5697341B4C9B0Cc8151413e05A90f7dc24F",
+    "name": "AaveV3 DAI Lender",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -2080,6 +2129,7 @@
   {
     "chainId": 137,
     "address": "0xF54a15F6da443041Bb075959EA66EE47655DDFcA",
+    "name": "Yearn-Ajna USDC Vault ",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -2122,6 +2172,7 @@
   {
     "chainId": 137,
     "address": "0xf7464410C1ccF86b19711c9B6599336b00641c8f",
+    "name": "stMATIC accumulator",
     "registry": "0xff31A1B020c868F6eA3f61Eb953344920EeCA3af",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Single Strategy",
@@ -2164,6 +2215,7 @@
   {
     "chainId": 137,
     "address": "0xf8Fd29A8f95e96A125984c4E384534AcE18CBfBD",
+    "name": "dai-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -2206,6 +2258,7 @@
   {
     "chainId": 137,
     "address": "0xfC47EFc0BaF8Ee64B2d94EF2bE400D90ceCA0f47",
+    "name": "StarSeeds Liquidity Protocol Vault V1",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -2248,6 +2301,7 @@
   {
     "chainId": 137,
     "address": "0xFD179B9793B467fa3DD85EDC715AE580B0240090",
+    "name": "usdt-vault",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
@@ -2290,6 +2344,7 @@
   {
     "chainId": 137,
     "address": "0xffCF7FB615614B96f5730af9dA3D7114C119aAbe",
+    "name": "USDC-1 RombusDAO",
     "registry": "0x0000000000000000000000000000000000000000",
     "ydaemonType": "Yearn Vault",
     "ydaemonKind": "Multi Strategy",
