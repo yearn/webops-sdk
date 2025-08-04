@@ -105,10 +105,20 @@ function Provider({ children }: { children: React.ReactNode }) {
   </MetaDataProvider>
 }
 
+function VaultSkeleton() {
+  return <div className="w-200 flex flex-col items-start justify-start gap-6">
+    <Skeleton className="w-full h-42" />
+    <Skeleton className="w-full h-16" />
+    <Skeleton className="w-full h-10" />
+    <Skeleton className="w-full h-16" />
+    <Skeleton className="w-full h-16" />
+  </div>
+}
+
 function Vault() {
   return (
     <div className="px-8 pt-5 pb-16">
-      <Suspense fallback={<Skeleton className="h-16" />}>
+      <Suspense fallback={<VaultSkeleton />}>
         <Provider>
           <VaultDetails />
         </Provider>
