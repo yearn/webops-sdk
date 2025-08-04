@@ -390,8 +390,8 @@
       "isGimme": false,
       "isPoolTogether": false,
       "isCove": false,
-      "isMorpho": false,
-      "isKatana": false,
+      "isMorpho": true,
+      "isKatana": true,
       "isPublicERC4626": false
     }
   },
