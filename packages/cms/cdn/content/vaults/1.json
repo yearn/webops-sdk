@@ -5230,7 +5230,7 @@
       "isCove": false,
       "isMorpho": false,
       "isKatana": false,
-      "isPublicERC4626": false
+      "isPublicERC4626": true
     }
   },
   {
