@@ -157,7 +157,7 @@
       "stableBaseAsset": "Ether"
     },
     "category": "Curve",
-    "displayName": "",
+    "displayName": "😻",
     "displaySymbol": "",
     "description": "",
     "sourceURI": "",
@@ -171,10 +171,10 @@
       "isYearnJuiced": false,
       "isGimme": false,
       "isPoolTogether": false,
-      "isCove": false,
-      "isMorpho": false,
+      "isCove": true,
+      "isMorpho": true,
       "isKatana": false,
-      "isPublicERC4626": false
+      "isPublicERC4626": true
     }
   },
   {
