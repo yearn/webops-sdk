@@ -6,6 +6,7 @@ import { PiGitPullRequest } from 'react-icons/pi'
 import { useParams } from 'react-router-dom'
 import { type VaultMetadata, VaultMetadataSchema } from '../../../../core/types/VaultMetadata'
 import Button from '../../components/elements/Button'
+import GithubSignIn, { useGithubUser } from '../../components/GithubSignIn'
 import Skeleton from '../../components/Skeleton'
 import MetaData, { MetaDataProvider, useMetaData } from './MetaData'
 
@@ -72,6 +73,7 @@ function PullRequestButton() {
 }
 
 function VaultDetails() {
+  const { signedIn } = useGithubUser()
   const { o: vault } = useMetaData()
   return (
     <div className="flex flex-col items-start justify-start gap-4 w-200">
@@ -83,7 +85,8 @@ function VaultDetails() {
       </div>
       <MetaData className="w-200" />
       <Suspense fallback={<Skeleton className="h-12 w-96 my-6 ml-auto" />}>
-        <PullRequestButton />
+        {signedIn && <PullRequestButton />}
+        {!signedIn && <GithubSignIn className="my-6 ml-auto" />}
       </Suspense>
     </div>
   )

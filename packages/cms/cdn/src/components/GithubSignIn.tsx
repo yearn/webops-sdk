@@ -1,10 +1,11 @@
 import { useSuspenseQuery } from '@tanstack/react-query'
 import { Suspense } from 'react'
 import { PiGithubLogoFill } from 'react-icons/pi'
+import { cn } from '../lib/cn'
 import Button from './elements/Button'
 import Skeleton from './Skeleton'
 
-function useGithubUser() {
+export function useGithubUser() {
   const token = sessionStorage.getItem('github_token')
   const signedIn = Boolean(token)
 
@@ -31,7 +32,7 @@ function GithubAvatar() {
   return <img src={avatar ?? ''} alt="Github avatar" className="w-6 h-6 rounded-full" />
 }
 
-export default function GithubSignIn() {
+export default function GithubSignIn({ className }: { className?: string }) {
   const { signedIn } = useGithubUser()
 
   const onSignInWithGithub = () => {
@@ -45,7 +46,7 @@ export default function GithubSignIn() {
     }
   }
 
-  return <Button onClick={onSignInWithGithub} className="flex items-center gap-4">
+  return <Button onClick={onSignInWithGithub} className={cn('flex items-center gap-4', className)}>
     {signedIn ? <Suspense fallback={<Skeleton className="w-6 h-6 rounded-full" />}><GithubAvatar /></Suspense> : <PiGithubLogoFill />}
     <span>{signedIn ? 'Sign out' : 'Sign in'}</span>
   </Button>
