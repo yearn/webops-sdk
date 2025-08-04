@@ -12,7 +12,6 @@ export default function Header() {
       </h1>
       <Button onClick={() => navigate('/vaults')}>vaults</Button>
       <Button onClick={() => navigate('/strategies')}>strategies</Button>
-      <Button onClick={() => navigate('/yearnfi')}>yearnfi</Button>
     </div>
     <div>
       <GithubSignIn />
