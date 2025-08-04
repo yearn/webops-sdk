@@ -173,8 +173,8 @@
       "isPoolTogether": false,
       "isCove": false,
       "isMorpho": false,
-      "isKatana": false,
-      "isPublicERC4626": false
+      "isKatana": true,
+      "isPublicERC4626": true
     }
   },
   {
