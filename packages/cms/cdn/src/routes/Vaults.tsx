@@ -3,14 +3,15 @@ import { useVaultsMeta } from '@webops/cms/react'
 import { Suspense } from 'react'
 import Link from '../components/elements/Link'
 import Skeleton from '../components/Skeleton'
+import TokenIcon from '../components/TokenIcon'
 
 function List() {
   const { vaults } = useVaultsMeta()
   return <div className="flex flex-col items-start justify-start gap-6">{vaults.map((vault: VaultMetadata) => (
     <Link key={`${vault.chainId}-${vault.address}`} 
       to={`/vaults/${vault.chainId}/${vault.address}`} 
-      className="flex items-center gap-2 text-lg">
-      <div>{vault.chainId}</div>
+      className="flex items-center gap-6 text-lg">
+      <TokenIcon chainId={vault.chainId} address={vault.address as `0x${string}`} showChain size={48} />
       <div>{vault.address.slice(0, 6)}</div>
       <div>{vault.name}</div>
     </Link>
