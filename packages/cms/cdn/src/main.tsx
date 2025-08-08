@@ -12,7 +12,7 @@ import Providers from './providers.tsx'
 import Success from './routes/auth/github/Success.tsx'
 import Layout from './routes/Layout.tsx'
 import Vault from './routes/Vault'
-import Vaults from './routes/Vaults.tsx'
+import Vaults from './routes/Vaults'
 
 createRoot(document.getElementById('root') ?? document.body).render(
   <StrictMode>

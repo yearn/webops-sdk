@@ -21,5 +21,5 @@ export default function ChainIcon(props: Props) {
     width={size ?? 32}
     height={size ?? 32}
     style={style}
-    className={className} />
+    className={cn(chainId === 100 ? 'invert' : '', className)} />
 }
